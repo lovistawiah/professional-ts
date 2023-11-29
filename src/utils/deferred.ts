@@ -1,7 +1,8 @@
 class Deferred {
-  #_promise;
-  #_resolve;
-  #_reject;
+  // inverted promise - deferred
+  #_promise: any;
+  #_resolve: any;
+  #_reject: any;
   constructor() {
     this.#_promise = new Promise((resolve, reject) => {
       this.#_resolve = resolve;
