@@ -52,6 +52,7 @@
         "prettier/react"
       ]
     },
+    
     /**
      * SERVER SIDE CODE
      */
